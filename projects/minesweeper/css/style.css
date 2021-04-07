@@ -1,0 +1,96 @@
+body {
+    text-align: center;
+    background-image: url("../pics/BG.png");
+    background-image: fixed;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.board-container{
+    width: 450px;
+    height: 450px;
+    margin: auto;   
+}
+
+table{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.cell {
+    padding: 0px;
+    font-size: 15px;
+    height: 25px;
+    width: 25px;
+    font-family: arial;
+    color: black;
+    border-style: solid;
+	border-color:#bbb #888 #666 #aaa;
+	border-width:3px 4px 4px 3px;
+	background:#aaa;
+	font-weight:900;
+}
+
+.diffs button {
+    border-color:#bbb #888 #666 #aaa;
+	background:#aaa;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: inherit;
+    height: inherit;
+    border-width: 3px;
+    font-size: 1em;
+    font-family: arial;
+    font-weight: bold;
+}
+
+.smiley button {
+    border-color:#bbb #888 #666 #aaa;
+	background:#aaa;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    border-width: 3px;
+}
+
+#minutes {
+    font-size: 30px;
+    font-family: arial;
+}
+
+#seconds {
+    font-size: 30px;
+    font-family: arial;
+}
+
+.lives{
+    height: 40px;
+    font-family: arial;
+    font-size: 25px;
+}
+
+.hints{
+    height: 40px;
+    font-family: arial;
+    font-size: 25px;
+}
+
+.hints button{
+    border-color:#bbb #888 #666 #aaa;
+	background:#aaa;
+    font-size: inherit;
+}
+
+.hints .hint1 {
+background-color: rgb(89, 202, 14);
+}
+
+.hinted {
+    background: yellow;
+}
+
+.best {
+    height: 40px;
+    font-family: arial;
+    font-size: 25px;
+}
